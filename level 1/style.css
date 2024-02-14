@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100%;
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+div h1 {
+    color: rgb(6, 165, 67);
+    background-color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Protest Strike', sans-serif;
+    font-weight: 800;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    position: relative;
+}
+
+#para {
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+    /* margin-left: 60px; */
+    padding: 10px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cont {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#parent {
+    width: 550px;
+    height: 550px;
+    background-color: lightblue;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#child1 {
+    background-color: rosybrown;
+    width: 50px;
+    height: 50px;
+}
+#child2 {
+    background-color: rgb(255, 3, 3);
+    width: 50px;
+    height: 50px;
+}
+#child3 {
+    background-color: rgb(10, 19, 255);
+    width: 50px;
+    height: 50px;
+}

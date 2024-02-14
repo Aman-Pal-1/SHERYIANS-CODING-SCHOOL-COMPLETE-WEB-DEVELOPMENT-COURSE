@@ -1,0 +1,42 @@
+                     Future me mere khud ke samajhne ke liye h .
+
+                     Starting this course on 11 feb 2024.
+                        First Vedio is - level 1.
+
+I think study se pehele strategy banana important h to fastly achieve my success.  
+
+                    Expectations from level 1 are there 🔻🔻🔻🔻.
+
+* - my code 
+* - karne kya waale h 
+* - final end goal of level 1
+* - kyu padhna h 
+* - kaise padhna h 
+* - kitna padna h 
+* - samajhna h kya galtiya nhi krni
+* - farak kha h 
+
+
+
+When we Stuck in any programme there we use some AI tools for improve our skills .🔻🔻🔻🔻
+
+* - ChatGPT Link - https://chat.openai.com/
+
+* - Google Bard Gemini Coding AI tool - https://gemini.google.com/app
+
+Some Important Extensions for web dev in 2024 .🔻🔻🔻🔻
+
+       * - Code Runner - Jun Han - Run C, C++, Java, JS, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, CMD
+       * - Live Preview - Microsoft - Hosts a local server in your workspace for you to preview your webpages on.
+                                or 
+       * - live server - Ritwick Dey - Launch a development local Server with live reload feature for static & dynamic page...
+
+
+       * - JellyFish Theme - JellyFish: Theme your code editor will love.
+                                or 
+       * - Prettier - Code formatter - Code formatter using prettier
+
+Icon Liberary
+Remix Icon.com   for finding icons for websites.
+
+To find Photos for web pages i use --  Unsplash.com

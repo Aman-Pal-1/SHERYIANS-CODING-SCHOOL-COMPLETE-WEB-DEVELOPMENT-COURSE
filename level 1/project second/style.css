@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 40%;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 30px;
+}
+
+#nav h3 {
+    background-color: black;
+    color: #ffff;
+    padding: 13px 17px;
+    font-size: 15px;
+    margin-left: 3px;
+    border-radius: 50px;
+}
+
+#intro {
+    height: 45%;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+#intro h1 {
+    font-size: 70px;
+    letter-spacing: -1px;
+    line-height: 65px;
+}
+
+#place {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#place h3,
+#place h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#hero-image img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#about {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+
+#about h2 {
+    width: 65%;
+    font-size: 57px;
+    line-height: 60px;
+}
+
+#about-part2 {
+    width: 25%;
+    border-left: solid black;
+    padding: 0px 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-part2 h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#icons i {
+    background-color: black;
+    color: #ffff;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#work {
+    height: 50%;
+    width: 100%-10px;
+    border-top: 2px solid black;
+    margin: 0px 10px;
+    padding: 50px 50px;
+    display: flex;
+}
+
+#work1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+    border-right: 2px solid black;
+}
+
+#work1 h3 {
+    font-size: 20px;
+}
+
+#work1 i {
+    font-size: 25px;
+}
+
+#work2 {
+    padding: 0px 10px 0px 20px;
+    height: 100%;
+    width: 70%;
+}
+
+.work2-para {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 20px 10px;
+}
+
+.work2-para:nth-child(1) {
+    border-bottom: 2px solid black;
+    padding-right: 20px;
+}
+
+.work2-para .elem {
+    width: 50%;
+    height: 100%;
+}
+
+.work2-para .elem:nth-child(1) {
+    border-right: 2px solid black;
+    font-weight: 400;
+}
+
+.work2-para .elem:nth-child(2) {
+    padding-left: 20px;
+    font-weight: 400;
+}
+.ele{
+    margin-top: 20px;
+}
+.elem p {
+    font-size: 15px;
+    letter-spacing: -0.1px;
+}
+
+.elem h4 {
+    font-size: 20px;
+}
