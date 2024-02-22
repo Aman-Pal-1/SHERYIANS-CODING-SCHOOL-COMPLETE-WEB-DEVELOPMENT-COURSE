@@ -90,7 +90,73 @@
 // }
 // functions in js ✅
 //functions mainly three kam ke hote h
-// fuctions ka matlab jab aap kucch code ko likh kar koi naam de sakte ho . 
+// fuctions ka matlab jab aap kucch code ko likh kar koi naam de sakte ho or baad me usey use kar sakte ho with that name as many times.
 //  phla kaam jab aapka code aap turant nhi chalana chahate ho future me chalana chahate ho 
 // dusra kaam jab aapka code aap reuse karna chahate ho  
 // teesra jab aapka code aap chalana chahete ho har baar with different data 
+// fuction abcd (){
+//     //function statement khte h ise 
+// }
+// function hellobolo(){
+//     console.log("hello");
+// }
+// hellobolo();
+//arguments and parameters ✅
+//               ⬇️⬇️⬇️ bacittes ke andar variables likhe the use hum parammeter khte h 
+// function abcd (a,b,c){
+// console.log(a,b,c);
+// }
+// abcd(12,13 , 14) jo bracittes ke andar likha h use hum argument khete h . 
+// arguments = real value jo hum dete h function chalaate waqt. 
+//parameters = variables jinme value store hoti hai argument waali.
+
+// arrays ✅
+// arrays = hum ik variable me ik value store kar paate hai par jab hame ik se jada value store karni ho tab hum fir arrays ka use karte h . matlab array hume ik se jada value use karne ki freedom deta h .
+// array = group of values.
+
+// var arr = [1,2,3,4,5,6,7,8,9,10];
+// console.log(arr[0]);
+
+//                  push pop shift or unsift splice ✅
+//var arr = [1,2,3,4,5,6];
+// console.log(arr.push(7)); // add extra member from array.
+// console.log(arr.pop()); // remove any member from array.
+// arr.unshift(0)
+// arr.shift()
+// arr.splice(2,1);
+
+// object ✅
+// ek se jada bande ki baat ki to hua array, ek bande ke baare me saari baat ki to hua object.
+// object hai ik bande ki details ko hold karna, in a key value pair.
+// 1) blank object 
+//var a = {}; curly bracittes ke andar agar kuch nhi likha ho to wo blank object khelata hai.
+//2) filled object
+// var a = {
+//     1,2,3,4,5,34,4,5,65,6,35,345,2,76,45352,45245,24565,908
+// }
+//          //        or 
+// var b = {
+//     name: "aman",
+//     age: 20,
+//     email : "amanpal5035286@gmail.com",
+//     linkedIn : "Amanpal",
+// }
+// properties and methods ✅
+// var ghadi = {
+//     brand : "Kenneth Cole", //here brand is a property
+//     price : "16K",  //here price is a property
+//     color : "silver", //here color is a property
+//     type : "Autometic", //here type is a property
+//     digital : false , //here digital is a property
+//     kuchbolo : function (){} // here kuchbolo is method . object ke andar ase property jiski value function ho use hum method bolte hai.
+// }
+// updating obj properties ✅
+// var ghadi = {
+//     brand : "Kenneth Cole",
+//     price : "16K",
+//     color : "silver",
+//     type : "Autometic",
+//     digital : false ,
+//     kuchbolo : function (){}
+// }
+// ghadi.brand = "Titan Kenneth Cole"
