@@ -60,20 +60,53 @@
 //      return{
 //          getter: function(){
 //              console.log(privateval);
+//          },
+//          setter: function(val){
+//              privateval = val;
 //          }
 //      }
 // })()
 // prototype ✅
-
+// jitne bhi object bante hai unke paas ik property hote hai wo hai prototype
+// javascript by default adds a property called prototype to every object, so if you ever see any object, you can blindly say that object contains prototype.
+// many properties and methods are already available to use built by javascript creators inside prototype of every objects.
 
 // prototypal inheritance ✅
+// kuch features pass kar dena baya prototype, isko khte hai prototypalinheretence.
+// var human = {
+//     name:"rohan",
+//     canfly: false,
+//     cantalk: true,
+//     willdie: true
+// }
+// make another object.
+//  var sheriyansstudent ={
+//     solvejsquestion : true,
+//     createmodernwebsite : true
+//  }
+// sheriyansstudent.__proto__ = human;
 
+// global scope and local scope ✅
+// jab bhi koi cheej in {} brackets ke andar nhi hoti to ham use global scope khte h . or jab koi cheej in {} brackets me hote hai use local scope khte hai.
 
 // this call apply bind ✅
+// global scope me this ki value window hai. jse -- console.log(this);
+// function scope me this ki value window hai. jse -- function abcd(){console.log(this)};    abcd(); 
+// ik function jo object ke andar ho use ham method khte hai.
+// method scope me this ki value object hoti hai. jse -- var obj ={name:"aman",baatkaro:function(){console.log(this);}} obj.baatkaro();
+// in any method, "this" keyword always refer to parent object.
 
+// eventlistners ✅
+// var button = document.querySelector("button");
+// button.addEventListener("click",function(){
+//     this.style.color = "red"; // event listner me this ki value refer karti hai jo addEventListener le phle jo likha hoga wahi value refer karega this. Here the value of this is button.
+//     console.log(this)
+// });
+//                                     call apply bind
+// call apply bind => agar tumhare paas koi function hai and koi object hai and tumhe function chalana hai or by default jo this ki value window hai use window na rakh kar point karwana hai kisi object ki taraf.
+// use case -- jab bhi hame function chalana hai jisme this ki value kuch or hai par ham chahate hai this ki value kuch or object rhe us waqut .call or .apply or .bind use me aate hai.
 
 // pure functions ✅
-
-
-// closures ✅
-
+// pure functions me do cheeje hoti hai.
+// phla - it should always return same output for same input.
+// dushra - it will never change/update the value of a global variable.
